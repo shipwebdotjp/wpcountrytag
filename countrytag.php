@@ -372,11 +372,6 @@ class Countrytag {
     //アクセス元の IP Addressと判定された国を出力
     function shortcode_handler_function_info($atts, $content = null, $tag = ''){
         global $sct_countrycode;
-        $atts = wp_parse_args($atts, array(
-            'in'  => '',
-            'not_in' => '',
-            'altsc' => '',
-        ));
         $output="";
         require dirname(__FILE__).'/vendor/autoload.php';
 

@@ -23,9 +23,9 @@ This is a Wordpress plugin which can show/hide content by country.
 1. Update DB now.
 
 # Usage
-[country_text in="Country code ex US,JP" altsc="Shortcoder name for the alternative."]This content will be shown to visitors from countries listed as "in" property. [/country_text]
+[country_text in="Country code ex US,JP" altsc="Shortcoder name for the alternative.(Option)"]This content will be shown to visitors from countries listed as "in" property. [/country_text]
 
-[country_text not_in="Country code ex US,JP" altsc="Shortcoder name for the alternative."]This content will be hidden to visitors from countries listed as "not_in" property[/country_text]
+[country_text not_in="Country code ex US,JP" altsc="Shortcoder name for the alternative.(Option)"]This content will be hidden to visitors from countries listed as "not_in" property[/country_text]
 
 # Note
 To auto-update, make sure wp-cron is running normally.
